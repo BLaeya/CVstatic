@@ -1,0 +1,17 @@
+@keyframes level {
+  from {
+    width: 0;
+  }
+  to {
+    width: var(--target-width);
+  }
+}
+
+@keyframes cursor {
+  from {
+    left: 0;
+  }
+  to {
+    left: calc(var(--target-position) - 0.5rem);
+  }
+}
